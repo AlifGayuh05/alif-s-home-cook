@@ -5,27 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alif.HomeCook</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+
+  </head>
 <body>
   <style>
     body{
       background-color:aqua;
     }
     h1{
-      text-align: center;
       text-transform: uppercase;
       color: black;
     }
     p{
       text-indent: 50px;
-      text-align: justify;
-      letter-spacing: 3px;
+      letter-spacing: 1px;
     }
-    section{
-      background-color: greenyellow;
-      border: 15px black;
-      padding: 8px;
+    p.fried-rice-text{
+      font-family:verdana;
     }
+    
+    
   </style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,7 +50,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="../home/about.html">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"></a>
@@ -61,7 +60,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="link">Log in</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="link"><a href="../login/login.php">Log in</a></button>
       <button class="btn btn-outline-success my-2 my-sm-0" type="link">Register</button>
     </form>
   </div>
@@ -76,6 +75,22 @@
   </center>
   <br><br><br><br>
 </header>
+
+<div class="jumbotron">
+  <h3 class="display-4">our product</h3>
+  <div class="fried-rice-box">
+    <img style="width:900px;height:500px;" src="nasi-goreng-biasa.jpg" alt="Nasi Goreng">
+    <h3>Fried rice</h3>
+    <p class="fried-rice-text">friend rice, the original and delicious fried rice, this fried rice
+      will blow up your mind filled with soft chicken, sweet soy sauce, and delicious fine herbs 
+    </p>
+    <button type="button" class="btn btn-primary">Let's Order</button>
+  </div>
+  <hr width="90%" color="black">
+  <div class="fried-noodle-box">
+
+  </div>
+</div>
 
 <footer class="page-footer font-small blue-grey lighten-5">
   <div style="background-color: rgb(177, 211, 155);">
@@ -101,13 +116,13 @@
         <h5 class="text-uppercase">Company</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="#!">ABOUT US</a>
+            <a href="#!">ABOUT ME</a>
           </li>
           <li>
-            <a href="#!">OUR EVENT</a>
+            <a href="#!">WANNA GET NOTIFIED?</a>
           </li>
           <li>
-            <a href="#!">SITE MAP</a>
+            <a href="#!"></a>
           </li>
         </ul>
       </div>
@@ -116,13 +131,13 @@
         <h5 class="text-uppercase">Help</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="#!">TERMS & CONDITION</a>
+            <a href="#!">HAVE A QUESTION?</a>
           </li>
           <li>
-            <a href="#!">FAQ'S</a>
+            <a href="#!">ORDER</a>
           </li>
           <li>
-            <a href="#!">CONFIRM PAYMENT</a>
+            <a href="#!">COMPLAIN</a>
           </li>
         </ul>
       </div>
